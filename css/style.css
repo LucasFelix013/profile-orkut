@@ -1,0 +1,963 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+
+    
+
+body {
+   
+   background-color:#d8e6f8;
+}
+header {
+position: absolute;
+width: 1920px;
+height: 92px;
+left: 0px;
+top: 0px;
+background: #FDFEFF;
+}
+
+
+
+.cabecalho {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.cabecalho-logo {
+    position: absolute;
+    width: 107px;
+    height: 32px;
+    left: 352px;
+    top: 30px; 
+}
+
+.cabecalho-inicio {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 550px;
+    top: 34px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px; 
+     display: flex;
+    align-items: center; 
+    color: #4B4B4B;   
+}
+
+.cabecalho-perfil {
+position: absolute;
+width: 41px;
+height: 24px;
+left: 640px;
+top: 34px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #ED2590;
+}
+
+.cabecalho-comu {
+position: absolute;
+width: 106px;
+height: 24px;
+left: 730px;
+top: 34px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #4B4B4B;
+
+}
+
+.cabecalho-jogos {
+ position: absolute;
+width: 47px;
+height: 24px;
+left: 890px;
+top: 34px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #4B4B4B
+}
+
+.cabecalho-input {
+position: absolute;
+width: 250px;
+height: 27px;
+top: 30px;
+margin: 0 0 0 450px;
+background: #EFF3F8;
+border-radius: 8px;
+}
+
+.cabecalho-photo-user {
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1418px;
+top: 25px;
+border-radius: 80px
+}
+
+.cabecalho-name {
+position: absolute;
+width: 65px;
+height: 24px;
+left: 1474px;
+top: 33px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+color: #4B4B4B;
+}
+
+.cabecalho-icon{
+position: absolute;
+left: 1540px;
+top: 38px;
+}
+
+.perfil-primeiro {
+ position: absolute;
+width: 280px;
+height: 324px;
+left: 352px;
+top: 172px;
+background: #FDFEFF;
+border-radius: 16px;
+}
+
+.perfil-user {
+position: absolute;
+width: 140px;
+height: 140px;
+left: 75px;
+top: 20px;
+border-radius: 100px;
+
+}
+
+.borde {    
+box-sizing: border-box;
+position: absolute;
+width: 150px;
+height: 150px;
+left: 69px;
+top: 15px;
+border-radius: 100px;
+border: 3px solid #ED2590;
+}
+
+.perfil-name {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 100px;
+    top: 110px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4B4B4B;
+    
+}
+
+.perfil-relacionamento {
+    position: absolute;
+    width: 185px;
+    height: 185px;
+    left: 83px;
+    top: 140px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4B4B4B;  
+}
+
+.perfil-segundo {
+position: absolute;
+width: 280px;
+height: 56px;
+left: 352px;
+top: 528px;
+
+background: #FDFEFF;
+border-radius: 16px;
+}
+
+.perfil-segundo-name {  
+position: absolute;
+width: 180px;
+height: 24px;
+left: 70px;
+top:15px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+
+color: #ED2590;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+
+color: #ED2590;  
+}
+
+.main-div {
+ position: absolute;
+width: 592px;
+height: 854px;
+left: 664px;
+top: 172px;
+background: #FDFEFF;
+border-radius: 16px;
+
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 190px;
+    height: 19px;
+    left: 50px;
+    top: 30px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    color: #4B4B4B;
+}
+
+.main-name-a {
+display: flex;
+align-items: center;
+position: absolute;
+width: 304px;
+height: 19px;
+left: 40px;
+top: 70px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #4B4B4B;
+
+}
+
+.main-name-aa {
+    position: absolute;
+    width: 544px;
+    height: 39.36px;
+        left: 20px;
+        top: 60px;
+        background: #EFF3F8;
+        border-radius: 10px;
+}
+
+.main-names-b,.main-names-c,.main-names-d,.main-names-e,.icons-b,.icons-c,.icons-d,.icons-e,.icons-ba,.icons-ca,.icons-ba,.icons-db,.icons-e,.icons-ea {
+ display: flex;
+ flex-direction: row;
+}
+.main-names-b {
+position: absolute;
+width: 24px;
+height: 19px;
+left: 30px;
+top: 120px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #4B4B4B;
+
+}
+
+.icons-b{
+position: absolute;
+width: 24px;
+height: 19px;
+left: 25px;
+top: 140px;
+}
+.icons-ba {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 50px;
+    top: 142px;
+}
+
+.icons-c {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 90px;
+    top: 140px;
+}
+
+.icons-ca {
+position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 120px;
+    top: 140px;
+}
+
+.icons-d {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 185px;
+    top: 140px;
+}
+
+.icons-da {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 210px;
+    top: 140px;
+}
+
+.icons-db {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 235px;
+    top: 140px;
+}
+
+.icons-e {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 270px;
+    top: 140px;
+}
+
+.icons-ea {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 295px;
+    top: 140px;
+}
+.main-names-c {
+ position: absolute;
+width: 24px;
+height: 19px;
+left: 90px;
+top: 120px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #4B4B4B;
+
+}
+.main-names-d {
+    position: absolute;
+    width: 24px;
+    height: 19px;
+    left: 190px;
+    top: 120px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #4B4B4B;
+    
+
+}
+.main-names-e {
+position: absolute;
+width: 24px;
+height: 19px;
+left: 270px;
+top: 120px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #4B4B4B;
+
+}
+
+.names-a {
+position: absolute;
+width: 112px;
+height: 19px;
+left: 30px;
+top: 170px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+display: flex;
+align-items: center;
+
+color: #B4AEAE;
+}
+
+.names-aa {
+position: absolute;
+width: 51px;
+height: 19px;
+left: 145px;
+top: 170px;
+color: #000;
+}
+
+.names-b {
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 210px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+
+.names-ba {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 120px;
+    top: 210px;
+    color: #000;
+}
+
+.names-c{
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 260px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+.names-ca {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 80px;
+    top: 260px;
+    color: #000;
+}
+
+.names-d{
+    position: absolute;
+    width: 160px;
+    height: 19px;
+    left: 30px;
+    top: 300px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+.names-da {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 165px;
+    top: 300px;
+    color: #000; 
+}
+
+
+.names-e{
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 30px;
+    top: 350px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+.names-ea {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 130px;
+    top: 350px;
+    color: #000;
+}
+
+.names-f{
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 400px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+.names-fa {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    left: 80px;
+    top: 400px;
+    color: #000;
+}
+
+
+.names-g{
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 450px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+.names-ga {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 80px;
+    top: 450px;
+    color: #000;
+}
+
+.names-h{
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 500px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+ 
+}
+
+.names-ha {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 80px;
+    top: 500px;
+    color: #000;
+
+}
+
+.names-i{
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 550px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+.names-ia {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 80px;
+    top: 550px;
+    color: #000;
+}
+
+.names-j{
+    position: absolute;
+    width: 79px;
+    height: 17px;
+    left: 30px;
+    top: 600px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE;
+}
+
+.names-ja {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    left: 80px;
+    top: 600px;
+    color: #000;
+}
+
+.names-k{
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 650px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE; 
+}
+
+.names-ka {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 70px;
+    top: 650px;
+    color: #000;
+}
+
+.names-l{
+    position: absolute;
+    width: 100px;
+    height: 19px;
+    left: 30px;
+    top: 700px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE; 
+}
+
+.names-la {
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 120px;
+    top: 700px;
+    color: #000; 
+}
+
+.names-r {
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 750px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE; 
+}
+
+.names-ra {
+    position: absolute;
+    padding: 0 0 0 15px;
+    width: 50px;
+    height: 20px;
+    left: 100px;
+    top: 750px;
+    color: #000;
+    border: solid 2px #ED2590;
+    border-radius: 16px; 
+}
+
+.names-rb {
+    position: absolute;
+    padding: 0 0 0 15px;
+    width: 50px;
+    height: 19px;
+    left: 180px;
+    top: 750px;
+    color: #000;  
+    border: solid 2px #ED2590;
+    border-radius:  20px;    
+}
+
+.names-rc {
+    position: absolute;
+    padding: 0 0 0 15px;
+    width: 50px;
+    height: 19px;
+    left: 260px;
+    top: 750px;
+    color: #000;  
+    border: solid 2px #ED2590;
+    border-radius:  20px;   
+}
+
+.names-rd {
+   position: absolute;
+   font-weight: 600;
+   padding: 3px 0 0 0;
+    width: 80px;
+    height: 0px;
+    left: 350px;
+    top: 750px;
+    color:  #ED2590; 
+}
+
+.names-p {
+    position: absolute;
+    width: 79px;
+    height: 19px;
+    left: 30px;
+    top: 800px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #B4AEAE; 
+}
+
+.names-pa {
+    position: absolute;
+    padding: 0 0 0 15px;
+    width: 100px;
+    height: 19px;
+    left: 100px;
+    top: 800px;
+    color: #000;  
+    border: solid 2px #ED2590;
+    border-radius:  20px;   
+}
+
+.names-pb {
+    position: absolute;
+    padding: 0 0 0 15px;
+    width: 130px;
+    height: 19px;
+    left: 250px;
+    top: 800px;
+    color: #000;  
+    border: solid 2px #ED2590;
+    border-radius:  20px;   
+    
+}
+
+.names-pc {
+    position: absolute;
+    font-weight: 600;
+     width: 80px;
+     height: 0px;
+     left: 430px;
+     top: 800px;
+     color:  #ED2590; 
+}
+
+.aside-div {
+position: absolute;
+width: 280px;
+height: 411px;
+left: 1288px;
+top: 172px;
+background: #FDFEFF;
+border-radius: 16px;
+}
+
+.aside-comunidade {
+position: absolute;    
+width: 280px;
+height: 411px;
+left: 1288px;
+top: 615px;
+background: #FDFEFF;
+border-radius: 16px;
+}
+.titulo-aside {
+margin: 8px 0 8px 8px ;
+width: 250px;
+height: 24px;
+left: 0px;
+top: 10px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #4B4B4B;
+}
+.sub {
+font-weight: 400;
+color: #ED2590; 
+}
+
+.photo-a {
+    margin: 15px 0 15px 8px;
+}
+
+.photo-b {
+ margin: 15px 0 15px 30px;
+}
+
+.photo-c {
+    margin: 15px 0 15px 35px;
+}
+
+.leng-a {
+    word-spacing: 50px;
+    margin: 0 0 0 13px;
+    width: 250px;
+    height: 17px;
+    top: 1293px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #4B4B4B;
+}
+
+.leng-b {
+    word-spacing: 60px;
+    margin: 0 0 0 18px;
+    width: 250px;
+    height: 17px;
+    top: 1293px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #4B4B4B;
+}
+
+.leng-c {
+    word-spacing: 60px;
+    margin: 0 0 0 25px;
+    width: 250px;
+    height: 17px;
+    top: 1293px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #4B4B4B;
+}
+ 
